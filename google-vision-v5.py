@@ -4,7 +4,7 @@ from google.cloud import vision_v1 as vision
 import pandas as pd
 import pathlib
 
-local_image = 'F:/Python/Kuvat/logos.jpg'
+local_image = 'full path name here.jpg'
 filename = os.path.basename(local_image)
 csv_file = "google-results.csv"
 file = pathlib.Path(csv_file)
